@@ -96,3 +96,30 @@ img {
 }
 
 
+ul.bjqs-controls.v-centered li a{
+	display:block;
+	width:20px;
+	height:40px;
+	margin-right:-30px;
+	margin-left:-30px;
+	
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a{
+	background:url('img/arrows_01.png') no-repeat;
+
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover{
+	background:url('img/arrows_a_01.png') no-repeat;
+
+}
+ul.bjqs-controls.v-centered li.bjqs-next a{
+	background:url('img/arrows_02.png') no-repeat;
+
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a:hover{
+	background:url('img/arrows_a_02.png') no-repeat;
+
+}
+
