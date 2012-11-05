@@ -23,7 +23,7 @@ img {
 	color:lightgrey;
 }
 
-.menu >h1:hover,h1.active {
+.menu >h1.over,h1.active {
 	color:DodgerBlue;
 	cursor:pointer
 }
@@ -32,21 +32,29 @@ img {
 	text-align:left;
 	margin-left:110px;
 	margin-top:30px;
+	cursor:pointer
+	
 }
 #ne > h1 {
 	text-align:right;
 	margin-top:30px;
-	margin-left:-310px;		
+	margin-left:-310px;
+	cursor:pointer
+	
 }
 #se > h1 {
 	text-align:right;
 	margin-top:55px;
-	margin-left:-310px;		
+	margin-left:-310px;
+	cursor:pointer
+	
 }
 #sw > h1 {
 	text-align:left;
 	margin-top:55px;
-	margin-left:110px;		
+	margin-left:110px;
+	cursor:pointer
+	
 }
 
 
@@ -69,7 +77,7 @@ img {
 	top:-50px;
 	left:-50px;
 }
-#nw:hover, #nw.active{
+#nw.over, #nw.active{
 	background:url('img/menu_a_01.png') no-repeat;
 	cursor:pointer
 	
@@ -83,7 +91,7 @@ img {
 	top:-50px;
 	right:-50px;
 }
-#ne:hover, #ne.active{
+#ne.over, #ne.active{
 	background:url('img/menu_a_02.png') no-repeat;
 	cursor:pointer
 	
@@ -97,7 +105,7 @@ img {
 	bottom:-50px;
 	right:-50px;
 }
-#se:hover, #se.active{
+#se.over, #se.active{
 	background:url('img/menu_a_04.png') no-repeat;
 	cursor:pointer
 	
@@ -111,7 +119,7 @@ img {
 	bottom:-50px;
 	left:-50px;
 }
-#sw:hover, #sw.active{
+#sw.over, #sw.active{
 	background:url('img/menu_a_03.png') no-repeat;
 	cursor:pointer
 	
@@ -132,7 +140,7 @@ ul.bjqs-controls.v-centered li.bjqs-prev a{
 	background:url('img/arrows_01.png') no-repeat;
 
 }
-ul.bjqs-controls.v-centered li.bjqs-prev a:hover{
+ul.bjqs-controls.v-centered li.bjqs-prev a.over{
 	background:url('img/arrows_a_01.png') no-repeat;
 
 }
@@ -141,7 +149,7 @@ ul.bjqs-controls.v-centered li.bjqs-next a{
 
 }
 
-ul.bjqs-controls.v-centered li.bjqs-next a:hover{
+ul.bjqs-controls.v-centered li.bjqs-next a.over{
 	background:url('img/arrows_a_02.png') no-repeat;
 
 }
