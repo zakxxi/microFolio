@@ -2,10 +2,7 @@ body {
 	font-family:'Helvetica',sans-serif;
 }
 
-img {
-	height: 100%;
-	width: 100%;
-}
+
 
 .menu {
 	width:100px;
@@ -161,18 +158,17 @@ p.bjqs-caption{
 }
 
 
-#about,#social,#contact {
+#about,#contact,#social {
 position:absolute;
-display: table;
 top:50px;
 left:50px;
 width:700px;
 height:400px;
 }
 
+
 .txt {
-	display: table-cell;
-	vertical-align: middle;;
+
 }
 p {
 font-size:14px;

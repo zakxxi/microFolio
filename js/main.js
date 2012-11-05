@@ -58,6 +58,17 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 
 });
 
+$('#social').socialist({
+      networks: [
+
+          {name:'twitter',id:'zakxxi'},
+
+         ],
+      isotope:false,
+      random:false,
+      fields:['source','heading','text','date','image','followers','likes']
+  });
+
 
 /*
  * ACTIONS BUTTONS  */
