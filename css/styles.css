@@ -6,16 +6,21 @@ img {
 .menu {
 	width:100px;
 	height:100px;
-	background:lightgrey;
 	z-index:1000;
 }
 
-.menu h1 {
+
+
+.menu > h1 {
 	width: 300px;
 	font-size:16px;
-	font-family:"Helvetica",sans-serif;
+	font-family:'Helvetica',sans-serif;
 	font-weight:normal;
 	color:lightgrey;
+}
+
+.menu >.active {
+	color:DodgerBlue;
 }
 
 #nw > h1 {
@@ -55,13 +60,19 @@ img {
 }
 
 #nw {
+	background:url('img/menu_01.png') no-repeat;
+	
 	position:absolute;
 	top:-50px;
 	left:-50px;
 }
-
+#nw.active {
+	background:url('img/menu_a_01.png') no-repeat;
+}
 
 #ne {
+	background:url('img/menu_02.png') no-repeat;
+	
 	position:absolute;
 	top:-50px;
 	right:-50px;
@@ -69,13 +80,19 @@ img {
 
 
 #se {
+	background:url('img/menu_04.png') no-repeat;
+	
 	position:absolute;
 	bottom:-50px;
 	right:-50px;
 }
 
 #sw {
+	background:url('img/menu_03.png') no-repeat;
+	
 	position:absolute;
 	bottom:-50px;
 	left:-50px;
 }
+
+
