@@ -55,7 +55,6 @@ img {
 	height:500px;
 	width:800px;
 	background:yellow;
-	
 	left: 50%;
 	top: 50%;
 	margin-left: -400px;
@@ -128,14 +127,13 @@ ul.bjqs-controls.v-centered li.bjqs-next a:hover{
 }
 
 p.bjqs-caption{
-	height:100%;
 	width:100%;
 	padding:0;
-	font-size:72px;
-	line-height:500px;
-	color:white;
+	font-size:14px;
+line-height: 40px;
+	letter-spacing:0px;
+	color:lightgrey;
 	text-align:center;
 /*	text-transform:uppercase; */
-	text-shadow: 0 0 5px grey}
 }
 
