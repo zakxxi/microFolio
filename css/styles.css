@@ -13,6 +13,12 @@ img {
 	z-index:1000;
 }
 
+a {
+	color:grey;
+}
+a:hover {
+	color:DodgerBlue;
+}
 
 
 .menu > h1 {
