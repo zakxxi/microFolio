@@ -17,7 +17,7 @@ $('#galery').bjqs({
 
 				// interaction values
 				keyboardnav     : false,     // enable/disable keyboard navigation
-				hoverpause      : false,     // enable/disable pause slides on hover
+				hoverpause      : true,     // enable/disable pause slides on hover
 
 				// presentational options
 				usecaptions     : true,     // enable/disable captions using img title attribute
