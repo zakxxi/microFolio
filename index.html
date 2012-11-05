@@ -10,9 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css" media="all"/>
 
 
- <!-- load jQuery and the plugin -->
- <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
- <script src="js/bjqs-1.3.min.js"></script>
+
 
 </head>
 <body>
@@ -50,40 +48,12 @@
 </div>
 <div id="contact">
 </div>
-
-<script>
-        jQuery(document).ready(function($) {
-
-          $('#galery').bjqs({
-		    animtype      : 'slide',
-		            height        : 500,
-		            width         : 800,
-					animtype        : 'slide',
-					animduration    : 450,      // length of transition
-					animspeed       : 4000,     // delay between transitions
-					automatic       : true,     // enable/disable automatic slide rotation
-
-					// control and marker configuration
-					showcontrols    : true,     // enable/disable next + previous UI elements
-					centercontrols  : true,     // vertically center controls
-					nexttext        : '',   // text/html inside next UI element
-					prevtext        : '',   // text/html inside previous UI element
-					showmarkers     : false,     // enable/disable individual slide UI markers
-					centermarkers   : false,     // horizontally center markers
-
-					// interaction values
-					keyboardnav     : false,     // enable/disable keyboard navigation
-					hoverpause      : false,     // enable/disable pause slides on hover
-
-					// presentational options
-					usecaptions     : true,     // enable/disable captions using img title attribute
-					randomstart     : false,     // start from a random slide
-					responsive      : false     // enable responsive behaviour
-          });
-
-        });
-      </script>
-
 </div>
+
+<!-- load jQuery and the plugin -->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="js/bjqs-1.3.min.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
