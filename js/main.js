@@ -78,6 +78,11 @@ $('#nw').click(function(){
 	$('#sw').removeClass('active');
 	$('#sw>h1').removeClass('active');
 	
+	$('#about').fadeOut(delay);
+	$('#social').fadeOut(delay);
+	$('#contact').fadeOut(delay);
+	
+	
 	$('#galery').fadeIn(delay);
 	
 
@@ -97,26 +102,14 @@ $('#ne').click(function(){
 	$('#sw>h1').removeClass('active');
 	
 	$('#galery').fadeOut(delay);
-
-})
-
-$('#sw').click(function(){
+	$('#social').fadeOut(delay);
+	$('#contact').fadeOut(delay);
 	
-	$(this).addClass('active');
-	$('#sw>h1').addClass('active');
-	
-	$('#ne').removeClass('active');
-	$('#ne>h1').removeClass('active');
-	$('#se').removeClass('active');
-	$('#se>h1').removeClass('active');
-	$('#nw').removeClass('active');
-	$('#nw>h1').removeClass('active');
-	
-	$('#galery').fadeOut(delay);
-	
+	$('#about').fadeIn(delay);
 	
 
 })
+
 
 $('#se').click(function(){
 	
@@ -131,12 +124,36 @@ $('#se').click(function(){
 	$('#sw>h1').removeClass('active');
 	
 	$('#galery').fadeOut(delay);
+	$('#about').fadeOut(delay);
+	$('#contact').fadeOut(delay);
 	
+	$('#social').fadeIn(delay);
 	
 
 })
 
 
+$('#sw').click(function(){
+	
+	$(this).addClass('active');
+	$('#sw>h1').addClass('active');
+	
+	$('#ne').removeClass('active');
+	$('#ne>h1').removeClass('active');
+	$('#se').removeClass('active');
+	$('#se>h1').removeClass('active');
+	$('#nw').removeClass('active');
+	$('#nw>h1').removeClass('active');
+	
+	$('#galery').fadeOut(delay);
+	$('#about').fadeOut(delay);
+	$('#social').fadeOut(delay);
+	
+	$('#contact').fadeIn(delay);
+	
+	
+
+})
 
 function hover(id){
 	
