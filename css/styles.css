@@ -23,8 +23,9 @@ img {
 	color:lightgrey;
 }
 
-.menu >.active {
+.menu >h1:hover,h1.active {
 	color:DodgerBlue;
+	cursor:pointer
 }
 
 #nw > h1 {
@@ -54,7 +55,6 @@ img {
 	position:absolute;
 	height:500px;
 	width:800px;
-	background:yellow;
 	left: 50%;
 	top: 50%;
 	margin-left: -400px;
@@ -69,9 +69,12 @@ img {
 	top:-50px;
 	left:-50px;
 }
-#nw.active {
+#nw:hover, #nw.active{
 	background:url('img/menu_a_01.png') no-repeat;
+	cursor:pointer
+	
 }
+
 
 #ne {
 	background:url('img/menu_02.png') no-repeat;
@@ -79,6 +82,11 @@ img {
 	position:absolute;
 	top:-50px;
 	right:-50px;
+}
+#ne:hover, #ne.active{
+	background:url('img/menu_a_02.png') no-repeat;
+	cursor:pointer
+	
 }
 
 
@@ -89,6 +97,12 @@ img {
 	bottom:-50px;
 	right:-50px;
 }
+#se:hover, #se.active{
+	background:url('img/menu_a_04.png') no-repeat;
+	cursor:pointer
+	
+}
+
 
 #sw {
 	background:url('img/menu_03.png') no-repeat;
@@ -97,6 +111,12 @@ img {
 	bottom:-50px;
 	left:-50px;
 }
+#sw:hover, #sw.active{
+	background:url('img/menu_a_03.png') no-repeat;
+	cursor:pointer
+	
+}
+
 
 
 ul.bjqs-controls.v-centered li a{
