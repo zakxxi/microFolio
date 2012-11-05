@@ -16,45 +16,36 @@ img {
 
 
 .menu > h1 {
-	width: 300px;
+	position:absolute;
+	top:30px;
+	width: 100px; 
 	font-size:16px;
-	font-weight:normal;
-
-	color:lightgrey;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	cursor:pointer
+	
 }
 
 .menu >h1.over,h1.active {
-	color:DodgerBlue;
-	cursor:pointer
 }
 
 #nw > h1 {
-	text-align:left;
-	margin-left:110px;
-	margin-top:30px;
-	cursor:pointer
-	
+	-webkit-transform: rotate(-45deg);
+	-webkit-transform-origin:center center;
 }
 #ne > h1 {
-	text-align:right;
-	margin-top:30px;
-	margin-left:-310px;
-	cursor:pointer
+	-webkit-transform: rotate(45deg);
+	-webkit-transform-origin:center center;
 	
 }
 #se > h1 {
-	text-align:right;
-	margin-top:55px;
-	margin-left:-310px;
-	cursor:pointer
-	
+	-webkit-transform: rotate(-45deg);
+	-webkit-transform-origin:center center;
 }
 #sw > h1 {
-	text-align:left;
-	margin-top:55px;
-	margin-left:110px;
-	cursor:pointer
-	
+	-webkit-transform: rotate(45deg);
+	-webkit-transform-origin:center center;
 }
 
 
@@ -78,7 +69,7 @@ img {
 	left:-50px;
 }
 #nw.over, #nw.active{
-	background:url('img/menu_a_01.png') no-repeat;
+	background:url('img/menu_04.png') no-repeat;
 	cursor:pointer
 	
 }
@@ -92,7 +83,7 @@ img {
 	right:-50px;
 }
 #ne.over, #ne.active{
-	background:url('img/menu_a_02.png') no-repeat;
+	background:url('img/menu_03.png') no-repeat;
 	cursor:pointer
 	
 }
@@ -106,7 +97,7 @@ img {
 	right:-50px;
 }
 #se.over, #se.active{
-	background:url('img/menu_a_04.png') no-repeat;
+	background:url('img/menu_01.png') no-repeat;
 	cursor:pointer
 	
 }
@@ -120,7 +111,7 @@ img {
 	left:-50px;
 }
 #sw.over, #sw.active{
-	background:url('img/menu_a_03.png') no-repeat;
+	background:url('img/menu_02.png') no-repeat;
 	cursor:pointer
 	
 }
