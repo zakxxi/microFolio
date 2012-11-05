@@ -19,8 +19,6 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 		var photoUrl = item.url_c;
 		var photoTitle = item.title;
 
-		console.log(data)
-
 		var insertGal = '<li><img src="' + photoUrl + '" title="' + photoTitle + '" ></li>';
 
 		$(insertGal).appendTo('.bjqs');
@@ -51,7 +49,7 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 					hoverpause      : true,     // enable/disable pause slides on hover
 
 					// presentational options
-					usecaptions     : true,     // enable/disable captions using img title attribute
+					usecaptions     : false,     // enable/disable captions using img title attribute
 					randomstart     : false,     // start from a random slide
 					responsive      : false     // enable responsive behaviour
 	});
@@ -60,4 +58,30 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 });
 
 
+/*
+ * ACTIONS BUTTONS  */
+hover('#nw');
+hover('#ne');
+hover('#se');
+hover('#sw');
 
+
+function hover(id){
+	
+	if ($(id).hasClass('active')) {
+		
+	}
+	
+	else {
+		
+		$(id).mouseover(function() {
+			$(id+'>h1').addClass('active');
+		});
+
+		$(id).mouseout(function() {
+			$(id+'>h1').removeClass('active');
+		});
+	}
+	
+
+}
