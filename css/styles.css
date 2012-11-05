@@ -1,3 +1,7 @@
+body {
+	font-family:'Helvetica',sans-serif;
+}
+
 img {
 	height: 100%;
 	width: 100%;
@@ -14,8 +18,8 @@ img {
 .menu > h1 {
 	width: 300px;
 	font-size:16px;
-	font-family:'Helvetica',sans-serif;
 	font-weight:normal;
+
 	color:lightgrey;
 }
 
@@ -121,5 +125,14 @@ ul.bjqs-controls.v-centered li.bjqs-next a{
 ul.bjqs-controls.v-centered li.bjqs-next a:hover{
 	background:url('img/arrows_a_02.png') no-repeat;
 
+}
+
+p.bjqs-caption{
+	height:20px;
+	padding:0;
+	font-size:14px;
+	color:grey;
+	text-align:center;
+	background: rgba(255,255,255,0.8);
 }
 
