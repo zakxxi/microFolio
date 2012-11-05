@@ -1,9 +1,9 @@
 /*
  * PARAMÈTRES  */
 
-var apiKey = 'd6ced05a5e11bf668ecd946bba23b4c9';
-var albumId = '72157631550752681';
-var userId = '86735532@N05';
+var apiKey = 'd1bb7a26cee61aee8573412d9f46a0dd';
+var albumId = '72157631934988931';
+var userId = '87291951@N04';
 var nbPhotos = 10;
 var photoSize = "_c"
 var delay = 500;
@@ -32,7 +32,7 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 		    animtype      : 'slide',
 		            height        : 500,
 		            width         : 800,
-					animtype        : 'slide',
+					animtype        : 'fade',
 					animduration    : delay,      // length of transition
 					animspeed       : 4000,     // delay between transitions
 					automatic       : true,     // enable/disable automatic slide rotation

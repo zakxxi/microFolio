@@ -17,7 +17,7 @@ a {
 	color:grey;
 }
 a:hover {
-	color:DodgerBlue;
+	color:grey;
 }
 
 
@@ -30,7 +30,7 @@ a:hover {
 }
 
 .menu >h1.over,h1.active {
-	color:DodgerBlue;
+	color:grey;
 	cursor:pointer
 }
 
