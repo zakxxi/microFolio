@@ -2,7 +2,7 @@
  * PARAMÈTRES  */
 
 var apiKey = 'd6ced05a5e11bf668ecd946bba23b4c9';
-var albumId = '72157631935231093';
+var albumId = '72157631550752681';
 var userId = '86735532@N05';
 var nbPhotos = 10;
 var photoSize = "_c"

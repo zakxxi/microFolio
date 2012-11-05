@@ -16,36 +16,45 @@ img {
 
 
 .menu > h1 {
-	position:absolute;
-	top:30px;
-	width: 100px; 
+	width: 300px;
 	font-size:16px;
-	font-weight:bold;
-	color:white;
-	text-align:center;
-	cursor:pointer
-	
+	font-weight:normal;
+
+	color:lightgrey;
 }
 
 .menu >h1.over,h1.active {
+	color:DodgerBlue;
+	cursor:pointer
 }
 
 #nw > h1 {
-	-webkit-transform: rotate(-45deg);
-	-webkit-transform-origin:center center;
+	text-align:left;
+	margin-left:110px;
+	margin-top:30px;
+	cursor:pointer
+	
 }
 #ne > h1 {
-	-webkit-transform: rotate(45deg);
-	-webkit-transform-origin:center center;
+	text-align:right;
+	margin-top:30px;
+	margin-left:-310px;
+	cursor:pointer
 	
 }
 #se > h1 {
-	-webkit-transform: rotate(-45deg);
-	-webkit-transform-origin:center center;
+	text-align:right;
+	margin-top:55px;
+	margin-left:-310px;
+	cursor:pointer
+	
 }
 #sw > h1 {
-	-webkit-transform: rotate(45deg);
-	-webkit-transform-origin:center center;
+	text-align:left;
+	margin-top:55px;
+	margin-left:110px;
+	cursor:pointer
+	
 }
 
 
@@ -69,7 +78,7 @@ img {
 	left:-50px;
 }
 #nw.over, #nw.active{
-	background:url('img/menu_04.png') no-repeat;
+	background:url('img/menu_a_01.png') no-repeat;
 	cursor:pointer
 	
 }
@@ -83,7 +92,7 @@ img {
 	right:-50px;
 }
 #ne.over, #ne.active{
-	background:url('img/menu_03.png') no-repeat;
+	background:url('img/menu_a_02.png') no-repeat;
 	cursor:pointer
 	
 }
@@ -97,7 +106,7 @@ img {
 	right:-50px;
 }
 #se.over, #se.active{
-	background:url('img/menu_01.png') no-repeat;
+	background:url('img/menu_a_04.png') no-repeat;
 	cursor:pointer
 	
 }
@@ -111,7 +120,7 @@ img {
 	left:-50px;
 }
 #sw.over, #sw.active{
-	background:url('img/menu_02.png') no-repeat;
+	background:url('img/menu_a_03.png') no-repeat;
 	cursor:pointer
 	
 }
