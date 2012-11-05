@@ -1,13 +1,45 @@
-.menu {
-	width:100px;
-	height:100px;
-	background:lightgrey;
-}
-
 img {
 	height: 100%;
 	width: 100%;
 }
+
+.menu {
+	width:100px;
+	height:100px;
+	background:lightgrey;
+	z-index:1000;
+}
+
+.menu h1 {
+	width: 300px;
+	font-size:16px;
+	font-family:"Helvetica",sans-serif;
+	font-weight:normal;
+	color:lightgrey;
+}
+
+#nw > h1 {
+	text-align:left;
+	margin-left:110px;
+	margin-top:30px;
+}
+#ne > h1 {
+	text-align:right;
+	margin-top:30px;
+	margin-left:-310px;		
+}
+#se > h1 {
+	text-align:right;
+	margin-top:55px;
+	margin-left:-310px;		
+}
+#sw > h1 {
+	text-align:left;
+	margin-top:55px;
+	margin-left:110px;		
+}
+
+
 
 #uiWrap {
 	position:absolute;
