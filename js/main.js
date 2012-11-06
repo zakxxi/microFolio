@@ -14,6 +14,10 @@ var delay = 500;
  * REQUETE AJAX VERS PHOTOS FLICKR
  */
 
+// IE FIX
+jQuery.support.cors = true;
+
+
 $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=' + apiKey + '&photoset_id=' + albumId + '&extras=url' + photoSize + '%2C&per_page=' + nbPhotos + '&format=json&nojsoncallback=1', function(data) {
 	$.each(data.photoset.photo, function(i, item) {
 
