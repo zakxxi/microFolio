@@ -1,5 +1,6 @@
 body {
 	font-family: 'Bitter', serif;
+	
 }
 
 img {
@@ -7,63 +8,52 @@ img {
 	width: 100%;
 }
 
-.menu {
-	width:100px;
-	height:100px;
-	z-index:1000;
-}
-
-a {
+a, .active {
 	color:grey;
 }
 a:hover {
 	color:grey;
+	text-decoration:none;
 }
 
 
-.menu > h1 {
-	width: 300px;
-	font-size:16px;
+h1 {
+	position:absolute;
+	padding:0;
+	margin:0;
+	bottom:510px;
+	width:100%;
+	font-size:18px;
 	font-weight:normal;
-
+	text-align:center;
 	color:lightgrey;
+	cursor:pointer;
+	
+	
 }
 
-.menu >h1.over,h1.active {
+
+h1:hover,h1.active {
 	color:grey;
 	cursor:pointer
 }
 
-#nw > h1 {
-	text-align:left;
-	margin-left:110px;
-	margin-top:30px;
-	cursor:pointer
-	
-}
-#ne > h1 {
-	text-align:right;
-	margin-top:30px;
-	margin-left:-310px;
-	cursor:pointer
-	
-}
-#se > h1 {
-	text-align:right;
-	margin-top:55px;
-	margin-left:-310px;
-	cursor:pointer
-	
-}
-#sw > h1 {
-	text-align:left;
-	margin-top:55px;
-	margin-left:110px;
-	cursor:pointer
-	
+#menu{
+	position:absolute;
+	padding:0;
+	margin:0;
+	top:510px;
+	width:100%;
+	font-size:14px;
+	font-weight:normal;
+	text-align:center;
+	color:lightgrey;
 }
 
-
+#menu span:hover{
+	cursor:pointer;
+	color:grey;
+}
 
 #uiWrap {
 	position:absolute;
@@ -75,63 +65,6 @@ a:hover {
 	margin-top: -250px;
 	
 }
-
-#nw {
-	background:url('img/menu_01.png') no-repeat;
-	
-	position:absolute;
-	top:-50px;
-	left:-50px;
-}
-#nw.over, #nw.active{
-	background:url('img/menu_a_01.png') no-repeat;
-	cursor:pointer
-	
-}
-
-
-#ne {
-	background:url('img/menu_02.png') no-repeat;
-	
-	position:absolute;
-	top:-50px;
-	right:-50px;
-}
-#ne.over, #ne.active{
-	background:url('img/menu_a_02.png') no-repeat;
-	cursor:pointer
-	
-}
-
-
-#se {
-	background:url('img/menu_04.png') no-repeat;
-	
-	position:absolute;
-	bottom:-50px;
-	right:-50px;
-}
-#se.over, #se.active{
-	background:url('img/menu_a_04.png') no-repeat;
-	cursor:pointer
-	
-}
-
-
-#sw {
-	background:url('img/menu_03.png') no-repeat;
-	
-	position:absolute;
-	bottom:-50px;
-	left:-50px;
-}
-#sw.over, #sw.active{
-	background:url('img/menu_a_03.png') no-repeat;
-	cursor:pointer
-	
-}
-
-
 
 ul.bjqs-controls.v-centered li a{
 	display:block;
@@ -167,7 +100,7 @@ p.bjqs-caption{
 }
 
 
-#about,#social,#contact {
+#about,#contact {
 position:absolute;
 display: table;
 top:50px;

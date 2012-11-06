@@ -38,7 +38,7 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 		            width         : 800,
 					animtype        : 'fade',
 					animduration    : delay,      // length of transition
-					animspeed       : 4000,     // delay between transitions
+					animspeed       : 6000,     // delay between transitions
 					automatic       : true,     // enable/disable automatic slide rotation
 
 					// control and marker configuration
@@ -65,114 +65,42 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 
 /*
  * ACTIONS BUTTONS  */
-hover('#nw');
-hover('#ne');
-hover('#se');
-hover('#sw');
 
-$('#nw').click(function(){
+$('#title').click(function(){
 	
 	$(this).addClass('active');
-	$('#nw>h1').addClass('active');
-	
-	$('#ne').removeClass('active');
-	$('#ne>h1').removeClass('active');
-	$('#se').removeClass('active');
-	$('#se>h1').removeClass('active');
-	$('#sw').removeClass('active');
-	$('#sw>h1').removeClass('active');
+	$('#btn_about').removeClass('active');
+	$('#btn_contact').removeClass('active');
 	
 	$('#about').fadeOut(delay);
-	$('#social').fadeOut(delay);
 	$('#contact').fadeOut(delay);
-	
 	
 	$('#galery').fadeIn(delay);
 	
-
 })
 
-
-$('#ne').click(function(){
+$('#btn_about').click(function(){
 	
 	$(this).addClass('active');
-	$('#ne>h1').addClass('active');
-	
-	$('#nw').removeClass('active');
-	$('#nw>h1').removeClass('active');
-	$('#se').removeClass('active');
-	$('#se>h1').removeClass('active');
-	$('#sw').removeClass('active');
-	$('#sw>h1').removeClass('active');
+	$('#title').removeClass('active');
+	$('#btn_contact').removeClass('active');
 	
 	$('#galery').fadeOut(delay);
-	$('#social').fadeOut(delay);
 	$('#contact').fadeOut(delay);
 	
 	$('#about').fadeIn(delay);
 	
-
 })
 
-
-$('#se').click(function(){
+$('#btn_contact').click(function(){
 	
 	$(this).addClass('active');
-	$('#se>h1').addClass('active');
-	
-	$('#ne').removeClass('active');
-	$('#ne>h1').removeClass('active');
-	$('#nw').removeClass('active');
-	$('#nw>h1').removeClass('active');
-	$('#sw').removeClass('active');
-	$('#sw>h1').removeClass('active');
+	$('#title').removeClass('active');
+	$('#btn_about').removeClass('active');
 	
 	$('#galery').fadeOut(delay);
 	$('#about').fadeOut(delay);
-	$('#contact').fadeOut(delay);
-	
-	$('#social').fadeIn(delay);
-	
-
-})
-
-
-$('#sw').click(function(){
-	
-	$(this).addClass('active');
-	$('#sw>h1').addClass('active');
-	
-	$('#ne').removeClass('active');
-	$('#ne>h1').removeClass('active');
-	$('#se').removeClass('active');
-	$('#se>h1').removeClass('active');
-	$('#nw').removeClass('active');
-	$('#nw>h1').removeClass('active');
-	
-	$('#galery').fadeOut(delay);
-	$('#about').fadeOut(delay);
-	$('#social').fadeOut(delay);
 	
 	$('#contact').fadeIn(delay);
 	
-	
-
 })
-
-function hover(id){
-	
-
-		$(id).mouseover(function() {
-			$(this).addClass('over');
-			$(id+'>h1').addClass('over');
-		});
-
-		$(id).mouseout(function() {
-			$(this).removeClass('over');
-			$(id+'>h1').removeClass('over');
-			
-		});
-
-	
-
-}
