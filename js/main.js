@@ -20,7 +20,6 @@ jQuery.support.cors = true;
 
 $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=' + apiKey + '&photoset_id=' + albumId + '&extras=url' + photoSize + '%2C&per_page=' + nbPhotos + '&format=json&nojsoncallback=1', function(data) {
 	$.each(data.photoset.photo, function(i, item) {
-
 		var photoUrl = item.url_c;
 		var photoTitle = item.title;
 
@@ -51,7 +50,7 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 
 					// interaction values
 					keyboardnav     : false,     // enable/disable keyboard navigation
-					hoverpause      : true,     // enable/disable pause slides on hover
+					hoverpause      : false,     // enable/disable pause slides on hover
 
 					// presentational options
 					usecaptions     : false,     // enable/disable captions using img title attribute
