@@ -1,5 +1,18 @@
+@font-face {
+    font-family: 'gujarati_sangam_mnregular';
+    src: url('fonts/gujarati_sangam_mn-webfont.eot');
+    src: url('fonts/gujarati_sangam_mn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gujarati_sangam_mn-webfont.woff') format('woff'),
+         url('fonts/gujarati_sangam_mn-webfont.ttf') format('truetype'),
+         url('fonts/gujarati_sangam_mn-webfont.svg#gujarati_sangam_mnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
-	font-family: 'Bitter', serif;
+	font-family: 'gujarati_sangam_mnregular', serif;
 	
 }
 
