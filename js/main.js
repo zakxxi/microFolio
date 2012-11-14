@@ -41,7 +41,7 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 					automatic       : true,     // enable/disable automatic slide rotation
 
 					// control and marker configuration
-					showcontrols    : true,     // enable/disable next + previous UI elements
+					showcontrols    : false,     // enable/disable next + previous UI elements
 					centercontrols  : true,     // vertically center controls
 					nexttext        : '',   // text/html inside next UI element
 					prevtext        : '',   // text/html inside previous UI element
