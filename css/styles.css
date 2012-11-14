@@ -21,35 +21,38 @@ img {
 	width: 100%;
 }
 
-a, .active {
-	color:grey;
+a {
+	text-decoration:none;
+	color:black;
+	
+}
+
+.active {
+	text-decoration:underline;
+	
 }
 a:hover {
-	color:grey;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 
-h1 {
-	position:absolute;
-	padding:0;
-	margin:0;
-	bottom:510px;
-	width:100%;
-	font-size:18px;
-	font-weight:normal;
-	text-align:center;
-	color:lightgrey;
-	cursor:pointer;
-	
-	
+
+
+p {
+font-size:14px;
+text-align:left;
 }
 
 
-h1:hover,h1.active {
-	color:grey;
-	cursor:pointer
+#about,#contact {
+position:absolute;
+display: table;
+top:0px;
+left:0px;
+width:800px;
+height:400px;
 }
+
 
 #menu{
 	position:absolute;
@@ -59,13 +62,17 @@ h1:hover,h1.active {
 	width:100%;
 	font-size:14px;
 	font-weight:normal;
-	text-align:center;
-	color:lightgrey;
+	text-align:left;
+}
+
+#menu span{
+display:block;	
 }
 
 #menu span:hover{
 	cursor:pointer;
-	color:grey;
+	text-decoration:underline;
+	
 }
 
 #uiWrap {
@@ -110,24 +117,4 @@ p.bjqs-caption{
 	color:lightgrey;
 	text-align:center;
 /*	text-transform:uppercase; */
-}
-
-
-#about,#contact {
-position:absolute;
-display: table;
-top:50px;
-left:50px;
-width:700px;
-height:400px;
-}
-
-.txt {
-	display: table-cell;
-	vertical-align: middle;;
-}
-p {
-font-size:14px;
-color:grey;
-text-align:center;
 }
