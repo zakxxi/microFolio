@@ -113,10 +113,9 @@ ul.bjqs-controls.v-centered li.bjqs-next a:hover{
 p.bjqs-caption{
 	width:100%;
 	padding:0;
-	font-size:14px;
-	line-height: 40px;
+	font-size:10px;
 	letter-spacing:0px;
-	color:lightgrey;
-	text-align:center;
+	color:black;
+	text-align:right;
 /*	text-transform:uppercase; */
 }

@@ -53,7 +53,7 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 					hoverpause      : false,     // enable/disable pause slides on hover
 
 					// presentational options
-					usecaptions     : false,     // enable/disable captions using img title attribute
+					usecaptions     : true,     // enable/disable captions using img title attribute
 					randomstart     : false,     // start from a random slide
 					responsive      : false     // enable responsive behaviour
 	});
