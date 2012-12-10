@@ -42,20 +42,20 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 
 					// control and marker configuration
 					showcontrols    : false,     // enable/disable next + previous UI elements
-					centercontrols  : true,     // vertically center controls
-					nexttext        : '',   // text/html inside next UI element
-					prevtext        : '',   // text/html inside previous UI element
-					showmarkers     : false,     // enable/disable individual slide UI markers
+					centercontrols  : false,     // vertically center controls
+					nexttext        : 'next',   // text/html inside next UI element
+					prevtext        : 'prev',   // text/html inside previous UI element
+					showmarkers     : true,     // enable/disable individual slide UI markers
 					centermarkers   : false,     // horizontally center markers
 
 					// interaction values
-					keyboardnav     : false,     // enable/disable keyboard navigation
+					keyboardnav     : true,     // enable/disable keyboard navigation
 					hoverpause      : false,     // enable/disable pause slides on hover
 
 					// presentational options
 					usecaptions     : true,     // enable/disable captions using img title attribute
 					randomstart     : false,     // start from a random slide
-					responsive      : false     // enable responsive behaviour
+					responsive      : true     // enable responsive behaviour
 	});
 	
 

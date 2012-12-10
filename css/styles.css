@@ -44,9 +44,10 @@ text-align:left;
 	position:relative;
 	height:500px;
 	width:800px;
-	left: 50%;
-	margin-left: -400px;
+	
+	margin:0 auto;
 	margin-top: 70px;
+	
 	
 }
 
@@ -113,10 +114,15 @@ ul.bjqs-controls.v-centered li.bjqs-next a:hover{
 p.bjqs-caption{
 	width:100%;
 	padding:0;
-	font-size:10px;
+	font-size:12px;
 	letter-spacing:0px;
 	color:black;
 	text-align:left;
 	background:white;
 /*	text-transform:uppercase; */
+}
+
+.bjqs-markers li {
+	font-size:12px;
+	
 }
