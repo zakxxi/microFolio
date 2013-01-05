@@ -45,7 +45,7 @@ $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photosets.getPhoto
 					centercontrols  : false,     // vertically center controls
 					nexttext        : 'next',   // text/html inside next UI element
 					prevtext        : 'prev',   // text/html inside previous UI element
-					showmarkers     : true,     // enable/disable individual slide UI markers
+					showmarkers     : false,     // enable/disable individual slide UI markers
 					centermarkers   : false,     // horizontally center markers
 
 					// interaction values
